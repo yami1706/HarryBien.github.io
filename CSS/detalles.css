@@ -1,0 +1,61 @@
+img.radius
+{
+  width: 250px;
+  height: 250px;
+  float: right;
+  border-radius: 0 0 0 0;
+  border-style: solid;
+  margin: 0px auto;
+  border: 2px solid rgb(116, 19, 88);
+  padding: 10px;
+  margin: 10px;
+}
+.disc
+{
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid rgb(170, 31, 143);
+  box-shadow: 0px 5px 8px rgb(104, 27, 113);
+  margin: 20px;
+}
+.disc:hover{
+  -webkit-transform:scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.enlace-tabla-lateral
+{
+  text-align: left;
+  font-size: 1em;
+  color: rgb(72, 5, 99);
+  padding-right: 5px;
+  text-decoration: none;
+
+}
+.enlace-tabla-lateral:hover
+{
+  color: rgb(41, 12, 154);
+  text-shadow: 0px 0px 5px rgba(179, 67, 137, 0.6);
+  text-decoration: :underline;
+}
+ul.lateral
+{
+  list-style: url(../icons/vineta.svg);
+}
+.discbio
+{
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid rgb(170, 31, 143);
+  box-shadow: 0px 5px 8px rgb(104, 27, 113);
+  margin: 20px;
+}
+.discbio:hover{
+  -webkit-transform:scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
+}
