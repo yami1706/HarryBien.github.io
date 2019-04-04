@@ -59,6 +59,14 @@ font-size: 30px;
   justify-content: center;
   align-items: center;
 }
+.video
+{
+  width: 1000%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 img.galeria
 {
   margin-top: 20px;
