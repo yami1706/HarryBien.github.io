@@ -1,0 +1,33 @@
+/*{
+  margin:0px;
+  padding: 0px;
+}*/
+.nav
+{
+  margin:auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ul{
+  list-style: none;
+}
+.nav>li{
+  float: left;
+}
+nav li a{
+  border-color: rgb(165, 153, 193);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+nav li a:hover
+{
+  background-color: #444444;
+}
+nav li ul
+{
+  display: none;
+  position: absolute;
+
+}
